@@ -9,3 +9,14 @@ redis:
         max-wait: -1ms
         max-idle: 10
         min-idle: 0
+<<<<<<< HEAD
+=======
+spring:
+  application:
+    name: tb-provider-tow
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/1911?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+    username: root
+    password: root
+>>>>>>> 0a02efb9c4b7b28de2124783a124cac341dee1f9
