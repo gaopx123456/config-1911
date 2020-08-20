@@ -1,9 +1,9 @@
 spring:
   redis:
-    database: ${redis.database}
-    host: ${redis.host}
-    port: ${redis.port}
-    timeout: ${redis.timeout}
+    database: 0
+    host: localhost
+    port: 6379
+    timeout: 6000ms
     jedis:
       pool:
         max-active: 200
