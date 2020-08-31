@@ -31,10 +31,9 @@ spring:
       enabled: true
       trace:
         enabled: true
-    data:
-      elasticsearch:
-        cluster-nodes: 127.0.0.1:9300
-        cluster-name: my-application
+  elasticsearch:
+    rest:
+      uris: "http://localhost:9200"
 
 management:
   endpoints:
